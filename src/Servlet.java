@@ -28,14 +28,31 @@ public class Servlet extends HttpServlet {
 
             ResultSet rset = stmt.executeQuery("SELECT * FROM Classes");
 
-        }
-        catch (Exception e){
+            StringBuilder output = new StringBuilder("<html><body><ul>");
+
+            while (rset.next()) {
+                int id = rset.getInt(1);
+                String name = rset.getString(2);
+                int classId = rset.getInt(3);
+                String origin = rset.getString(4);
+                int cost = rset.getInt(5);
+                String health = rset.getString(6);
+                int armor = rset.getInt(7);
+                int mr = rset.getInt(8);
+                int range = rset.getInt(9);
+                String abName = rset.getString(10);
+                String abDesc = rset.getString(11);
+
+                output.append("<li>").append(id);
+                output.append(", ").append(name).append(", ").append(classId).append(", ").append(origin).append(", ").append(cost).append(", ").append(health).append(", ").append(armor).append(", ").append(mr).append(", ").append(range).append(", ").append(abName).append(", ").append(abDesc);
+                output.append("</li>");
+                output.append("</ul></body></html>");
+
+            }
+
+        } catch (Exception e) {
             e.printStackTrace();
         }
-
-
-
-
 
 
     }
