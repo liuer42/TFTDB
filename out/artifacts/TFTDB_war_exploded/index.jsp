@@ -11,9 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-    <a href="">About</a>
-    <a href="">Login</a>
-    <a href="">Sign Up</a>s
   $END$
   </body>
 </html>
