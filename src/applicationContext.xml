@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:application.properties"/>
+
+    <bean class="springxml.services.validate" id="validate"/>
+
+    <bean class="springxml.beans.champion" id="champion">
+
+        <!-- Inject literal values from properties file -->
+        <property name="champId" value="${c1.champId}"/>
+        <property name="name" value="${c1.name}"/>
+        <property name="classId" ref="classInfo"/>
+        <property name="origin" value="${c1.origin}"/>
+        <property name="cost" value="${c1.cost}"/>
+        <property name="health" value="${c1.health}"/>
+        <property name="armor" value="${c1.armor}"/>
+        <property name="mr" value="${c1.mr}"/>
+        <property name="range" value="${c1.range}"/>
+        <property name="abilityName" value="${c1.abilityName}"/>
+        <property name="abilityDesc" value="${c1.abilityDesc}"/>
+
+    </bean>
+
+    <bean class="springxml.beans.classInfo" id="classInfo">
+
+        <!-- Inject literal values from properties file -->
+        <property name="classId" value="${cl1.classId}"/>
+        <property name="name" value="${cl1.name}"/>
+        <property name="description" value="${cl1.description}"/>
+    </bean>
+</beans>

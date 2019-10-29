@@ -7,617 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f139bc8e-7fe8-4a5d-bc53-b89f3f0be514" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springmvc/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/TFTDB_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/TFTDB_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springxml/services/validate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFTDB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TFTDB.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/classes/FirstServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/derby.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/derbyshared.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/derbytools.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/db.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/log/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/log/log.ctrl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/log/log1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/log/logmirror.ctrl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c10.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c101.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c111.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c121.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c130.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c141.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c150.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c161.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c171.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c180.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c191.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c1a1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c1b1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c1c0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c1d1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c1e0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c1f1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c20.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c200.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c211.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c221.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c230.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c241.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c251.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c260.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c271.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c281.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c290.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c2a1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c2b1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c2c1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c2d0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c2e1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c2f0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c300.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c31.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c311.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c321.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c331.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c340.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c351.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c361.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c371.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c380.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c391.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c3a1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c3b1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c3c0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c3d1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c3e1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c3f1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c400.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c41.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c411.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c421.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c430.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c441.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c451.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c461.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c470.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c481.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c490.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c4a1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c51.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c60.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c71.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c81.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/c90.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/ca1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/cb1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/cc0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/cd1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/ce1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/seg0/cf0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/lib/tftdb/service.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/champions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/champions/ashe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/AatroxSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/AatroxSquareOld.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/AhriSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/AkaliSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/AkaliSquareOld.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/AlistarSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/AmumuSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/AniviaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/AnnieSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/AsheSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Aurelion_SolSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/AzirSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/BardSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/BlitzcrankSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/BrandSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/BraumSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/CaitlynSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/CamilleSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/CassiopeiaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Cho-GathSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/CorkiSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/DariusSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/DianaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Dr._MundoSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/DravenSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/EkkoSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/EliseSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/EvelynnSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/EzrealSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/EzrealSquareOld.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/FiddlesticksSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/FioraSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/FizzSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/GalioSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/GangplankSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/GarenSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/GnarSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/GragasSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/GravesSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/HecarimSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/HeimerdingerSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/IllaoiSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/IreliaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/IvernSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/JannaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Jarvan_IVSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/JaxSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/JayceSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/JhinSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/JinxSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Kai-SaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/KalistaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/KarmaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/KarthusSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/KassadinSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/KatarinaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/KayleSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/KayleSquareOld.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/KaynSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/KennenSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Kha-ZixSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/KindredSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/KledSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Kog-MawSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/LeBlancSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Lee_SinSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/LeonaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/LissandraSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/LucianSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/LuluSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/LuxSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/MalphiteSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/MalzaharSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/MaokaiSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Master_YiSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Miss_FortuneSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/MordekaiserSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/MordekaiserSquareOld.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/MorganaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/MorganaSquareOld.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/NamiSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/NasusSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/NautilusSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/NeekoSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/NidaleeSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/NocturneSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Nunu&amp;WillumpSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/NunuSquareOld.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/OlafSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/OriannaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/OrnnSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/PantheonSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/PoppySquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/PykeSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/QiyanaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/QuinnSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/RakanSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/RammusSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Rek-SaiSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/RenektonSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/RengarSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/RivenSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/RumbleSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/RyzeSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/SejuaniSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/ShacoSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/ShenSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/ShyvanaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/SingedSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/SionSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/SivirSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/SkarnerSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/SonaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/SorakaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/SwainSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/SylasSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/SyndraSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Tahm_KenchSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/TaliyahSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/TalonSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/TaricSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/TeemoSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/ThreshSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/TristanaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/TrundleSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/TryndamereSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Twisted_FateSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/TwitchSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/UdyrSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/UrgotSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/VarusSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/VayneSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/VeigarSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Vel-KozSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/ViSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/ViktorSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/VladimirSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/VolibearSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/WarwickSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/WukongSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/XayahSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/XerathSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/Xin_ZhaoSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/YasuoSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/YorickSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/YuumiSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/ZacSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/ZedSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/ZiggsSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/ZileanSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/ZoeSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/icons/ZyraSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/images/Ashe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/images/tft.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/items.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FirstServlet_war_exploded/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/classes/ListServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/classes/SearchServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/classes/Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/log/log1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/champions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/champions/ashe.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/champions/ashe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/AatroxSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/AatroxSquareOld.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/AhriSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/AkaliSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/AkaliSquareOld.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/AlistarSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/AmumuSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/AniviaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/AnnieSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/AsheSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Aurelion_SolSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/AzirSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/BardSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/BlitzcrankSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/BrandSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/BraumSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/CaitlynSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/CamilleSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/CassiopeiaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Cho-GathSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/CorkiSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/DariusSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/DianaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Dr._MundoSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/DravenSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/EkkoSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/EliseSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/EvelynnSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/EzrealSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/EzrealSquareOld.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/FiddlesticksSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/FioraSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/FizzSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/GalioSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/GangplankSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/GarenSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/GnarSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/GragasSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/GravesSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/HecarimSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/HeimerdingerSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/IllaoiSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/IreliaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/IvernSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/JannaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Jarvan_IVSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/JaxSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/JayceSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/JhinSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/JinxSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Kai-SaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/KalistaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/KarmaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/KarthusSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/KassadinSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/KatarinaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/KayleSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/KayleSquareOld.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/KaynSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/KennenSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Kha-ZixSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/KindredSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/KledSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Kog-MawSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/LeBlancSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Lee_SinSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/LeonaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/LissandraSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/LucianSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/LuluSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/LuxSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/MalphiteSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/MalzaharSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/MaokaiSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Master_YiSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Miss_FortuneSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/MordekaiserSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/MordekaiserSquareOld.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/MorganaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/MorganaSquareOld.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/NamiSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/NasusSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/NautilusSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/NeekoSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/NidaleeSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/NocturneSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Nunu&amp;WillumpSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/NunuSquareOld.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/OlafSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/OriannaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/OrnnSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/PantheonSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/PoppySquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/PykeSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/QiyanaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/QuinnSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/RakanSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/RammusSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Rek-SaiSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/RenektonSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/RengarSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/RivenSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/RumbleSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/RyzeSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/SejuaniSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/ShacoSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/ShenSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/ShyvanaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/SingedSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/SionSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/SivirSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/SkarnerSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/SonaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/SorakaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/SwainSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/SylasSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/SyndraSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Tahm_KenchSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/TaliyahSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/TalonSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/TaricSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/TeemoSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/ThreshSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/TristanaSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/TrundleSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/TryndamereSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Twisted_FateSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/TwitchSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/UdyrSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/UrgotSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/VarusSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/VayneSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/VeigarSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Vel-KozSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/ViSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/ViktorSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/VladimirSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/VolibearSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/WarwickSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/WukongSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/XayahSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/XerathSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/Xin_ZhaoSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/YasuoSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/YorickSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/YuumiSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/ZacSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/ZedSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/ZiggsSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/ZileanSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/ZoeSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/icons/ZyraSquare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/images/Ashe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/images/tft.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/items.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FirstServlet/FirstServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TFTDB/ListServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TFTDB/SearchServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TFTDB/Servlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Servlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/springxml/SpringApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/springxml/beans/champion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/springxml/beans/classInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/springxml/services/inputService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/springxml/services/validate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/champions.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/champions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/champions/ashe.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/champions/ashe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/AatroxSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/AatroxSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/AatroxSquareOld.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/AatroxSquareOld.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/AhriSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/AhriSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/AkaliSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/AkaliSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/AkaliSquareOld.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/AkaliSquareOld.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/AlistarSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/AlistarSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/AmumuSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/AmumuSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/AniviaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/AniviaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/AnnieSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/AnnieSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/AsheSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/AsheSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Aurelion_SolSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Aurelion_SolSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/AzirSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/AzirSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/BardSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/BardSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/BlitzcrankSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/BlitzcrankSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/BrandSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/BrandSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/BraumSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/BraumSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/CaitlynSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/CaitlynSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/CamilleSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/CamilleSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/CassiopeiaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/CassiopeiaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Cho-GathSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Cho-GathSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/CorkiSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/CorkiSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/DariusSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/DariusSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/DianaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/DianaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Dr._MundoSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Dr._MundoSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/DravenSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/DravenSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/EkkoSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/EkkoSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/EliseSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/EliseSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/EvelynnSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/EvelynnSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/EzrealSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/EzrealSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/EzrealSquareOld.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/EzrealSquareOld.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/FiddlesticksSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/FiddlesticksSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/FioraSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/FioraSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/FizzSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/FizzSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/GalioSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/GalioSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/GangplankSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/GangplankSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/GarenSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/GarenSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/GnarSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/GnarSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/GragasSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/GragasSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/GravesSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/GravesSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/HecarimSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/HecarimSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/HeimerdingerSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/HeimerdingerSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/IllaoiSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/IllaoiSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/IreliaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/IreliaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/IvernSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/IvernSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/JannaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/JannaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Jarvan_IVSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Jarvan_IVSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/JaxSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/JaxSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/JayceSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/JayceSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/JhinSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/JhinSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/JinxSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/JinxSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Kai-SaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Kai-SaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/KalistaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/KalistaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/KarmaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/KarmaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/KarthusSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/KarthusSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/KassadinSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/KassadinSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/KatarinaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/KatarinaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/KayleSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/KayleSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/KayleSquareOld.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/KayleSquareOld.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/KaynSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/KaynSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/KennenSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/KennenSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Kha-ZixSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Kha-ZixSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/KindredSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/KindredSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/KledSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/KledSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Kog-MawSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Kog-MawSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/LeBlancSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/LeBlancSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Lee_SinSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Lee_SinSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/LeonaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/LeonaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/LissandraSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/LissandraSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/LucianSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/LucianSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/LuluSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/LuluSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/LuxSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/LuxSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/MalphiteSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/MalphiteSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/MalzaharSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/MalzaharSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/MaokaiSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/MaokaiSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Master_YiSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Master_YiSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Miss_FortuneSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Miss_FortuneSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/MordekaiserSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/MordekaiserSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/MordekaiserSquareOld.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/MordekaiserSquareOld.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/MorganaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/MorganaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/MorganaSquareOld.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/MorganaSquareOld.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/NamiSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/NamiSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/NasusSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/NasusSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/NautilusSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/NautilusSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/NeekoSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/NeekoSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/NidaleeSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/NidaleeSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/NocturneSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/NocturneSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Nunu&amp;WillumpSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Nunu&amp;WillumpSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/NunuSquareOld.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/NunuSquareOld.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/OlafSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/OlafSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/OriannaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/OriannaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/OrnnSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/OrnnSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/PantheonSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/PantheonSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/PoppySquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/PoppySquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/PykeSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/PykeSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/QiyanaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/QiyanaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/QuinnSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/QuinnSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/RakanSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/RakanSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/RammusSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/RammusSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Rek-SaiSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Rek-SaiSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/RenektonSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/RenektonSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/RengarSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/RengarSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/RivenSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/RivenSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/RumbleSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/RumbleSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/RyzeSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/RyzeSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/SejuaniSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/SejuaniSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/ShacoSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/ShacoSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/ShenSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/ShenSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/ShyvanaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/ShyvanaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/SingedSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/SingedSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/SionSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/SionSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/SivirSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/SivirSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/SkarnerSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/SkarnerSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/SonaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/SonaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/SorakaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/SorakaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/SwainSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/SwainSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/SylasSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/SylasSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/SyndraSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/SyndraSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Tahm_KenchSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Tahm_KenchSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/TaliyahSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/TaliyahSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/TalonSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/TalonSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/TaricSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/TaricSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/TeemoSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/TeemoSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/ThreshSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/ThreshSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/TristanaSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/TristanaSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/TrundleSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/TrundleSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/TryndamereSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/TryndamereSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Twisted_FateSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Twisted_FateSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/TwitchSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/TwitchSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/UdyrSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/UdyrSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/UrgotSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/UrgotSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/VarusSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/VarusSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/VayneSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/VayneSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/VeigarSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/VeigarSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Vel-KozSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Vel-KozSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/ViSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/ViSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/ViktorSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/ViktorSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/VladimirSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/VladimirSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/VolibearSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/VolibearSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/WarwickSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/WarwickSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/WukongSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/WukongSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/XayahSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/XayahSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/XerathSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/XerathSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/Xin_ZhaoSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/Xin_ZhaoSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/YasuoSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/YasuoSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/YorickSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/YorickSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/YuumiSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/YuumiSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/ZacSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/ZacSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/ZedSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/ZedSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/ZiggsSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/ZiggsSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/ZileanSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/ZileanSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/ZoeSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/ZoeSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/icons/ZyraSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/icons/ZyraSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/Ashe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/Ashe.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/tft.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/img/tft.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/items.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/classes/springmvc/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TFTDB/springmvc/HomeController.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -703,7 +98,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568682669187" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -712,6 +107,9 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/liuer42/exchangestudent.git" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Eric\IdeaProjects\TFTDB\web\WEB-INF" />
       <recent name="C:\Users\Eric\IdeaProjects\FirstServlet\lib" />
@@ -736,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.24">
+  <component name="RunManager" selected="Application.SpringApp">
     <configuration name="SpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springxml.SpringApp" />
       <module name="TFTDB" />
@@ -869,7 +267,12 @@
       <workItem from="1570062712660" duration="799000" />
       <workItem from="1570403822437" duration="6024000" />
       <workItem from="1570494990873" duration="7688000" />
-      <workItem from="1571280015548" duration="5904000" />
+      <workItem from="1571280015548" duration="6143000" />
+      <workItem from="1571690049473" duration="1211000" />
+      <workItem from="1571704126598" duration="991000" />
+      <workItem from="1571709869473" duration="361000" />
+      <workItem from="1571877422677" duration="952000" />
+      <workItem from="1572310103948" duration="3151000" />
     </task>
     <task id="LOCAL-00001" summary="list/search servlets">
       <created>1568862425052</created>
@@ -892,7 +295,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570504122312</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="xml config">
+      <created>1571286060880</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571286060880</updated>
+    </task>
+    <task id="LOCAL-00005" summary="mvc pt 1">
+      <created>1571286104183</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571286104183</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -915,7 +332,8 @@
     <MESSAGE value="list/search servlets" />
     <MESSAGE value="spring" />
     <MESSAGE value="xml config" />
-    <option name="LAST_COMMIT_MESSAGE" value="xml config" />
+    <MESSAGE value="mvc pt 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvc pt 1" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
