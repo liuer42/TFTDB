@@ -1,6 +1,5 @@
 package hibernate.entity;
 
-
 import javax.persistence.*;
 
 @Entity
@@ -13,10 +12,12 @@ public class Champion {
     private int champId;
 
     // a class type can have many champions but a champion can only be one class type
+    //eager fetch type loads up the relationship before being called by a getter
     @ManyToOne(cascade={CascadeType.DETACH,
             CascadeType.MERGE,
             CascadeType.PERSIST,
-            CascadeType.REFRESH})
+            CascadeType.REFRESH},
+            fetch=FetchType.EAGER)
     @JoinColumn(name="class")
     private Class className;
 

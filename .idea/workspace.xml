@@ -7,27 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f139bc8e-7fe8-4a5d-bc53-b89f3f0be514" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_5_5_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/HibernateApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Champion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/entity/Class.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFTDB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TFTDB.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tftdb/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tftdb/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tftdb/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/log/log1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tftdb/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/c230.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/c400.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/c490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/c490.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/c4a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/c4a1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/c540.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/c540.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/c551.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/c551.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/c561.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/c561.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/c90.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/ca1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/entity/Champion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/entity/Champion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/entity/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/entity/Class.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -299,7 +281,7 @@
       <workItem from="1572310103948" duration="3470000" />
       <workItem from="1574047224736" duration="4532000" />
       <workItem from="1574117682371" duration="6715000" />
-      <workItem from="1574127870161" duration="3334000" />
+      <workItem from="1574127870161" duration="4017000" />
     </task>
     <task id="LOCAL-00001" summary="list/search servlets">
       <created>1568862425052</created>
@@ -343,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572315489948</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="hibernate lab">
+      <created>1574139115753</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574139115753</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +356,8 @@
     <MESSAGE value="spring" />
     <MESSAGE value="mvc pt 1" />
     <MESSAGE value="xml config" />
-    <option name="LAST_COMMIT_MESSAGE" value="xml config" />
+    <MESSAGE value="hibernate lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="hibernate lab" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

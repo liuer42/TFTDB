@@ -19,8 +19,9 @@ public class Class {
     @Column(name="description")
     private String description;
 
+    //eager fetch type loads up the relationship before being called by a getter
     @OneToMany(cascade = CascadeType.ALL,
-            mappedBy = "className")
+            mappedBy = "className", fetch=FetchType.EAGER)
     private List<Champion> champions;
 
     public Class() {
