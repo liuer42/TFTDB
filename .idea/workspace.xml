@@ -7,9 +7,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f139bc8e-7fe8-4a5d-bc53-b89f3f0be514" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_mchange_c3p0_0_9_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_hibernate_validator_hibernate_validator_6_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/controller/championController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/controller/classController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/controller/homeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/dao/championDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/dao/championDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/dao/classDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/dao/classDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/service/championService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/service/championServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/service/classService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate/service/classServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/add-champion-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/champion.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/edit-champion.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/list-champions.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/view/list-classes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/TFTDB_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/TFTDB_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFTDB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TFTDB.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tftdb/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tftdb/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tftdb/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tftdb/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/c400.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/c490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/c490.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/c4a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/c4a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/c540.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/c540.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/c551.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/c551.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tftdb/seg0/c561.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tftdb/seg0/c561.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c230.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c400.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c490.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c4a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c4a1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c540.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c540.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c551.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c551.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c561.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c561.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/lib/tftdb/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/view/champions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/view/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/view/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/view/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/view/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/TFTDB_war_exploded/WEB-INF/view/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TFTDB/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TFTDB/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/HibernateApp.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hibernate/entity/Champion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/entity/Champion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate/entity/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/entity/Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/champions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/search.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,10 +130,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Tag Library Descriptor" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -91,6 +162,11 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="derby.embedded&#10;derby" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path" value="C:\Users\Eric\IdeaProjects\TFTDB\lib\jstl" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -98,7 +174,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="spring" />
@@ -131,9 +207,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HibernateApp">
-    <configuration name="HibernateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hibernate.HibernateApp" />
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.24">
+    <configuration name="HomeController" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="hibernate.controller.homeController" />
       <module name="TFTDB" />
       <extension name="coverage">
         <pattern>
@@ -162,7 +238,7 @@
       <deployment>
         <artifact name="TFTDB:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/eric" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -229,9 +305,14 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.HomeController" />
+      <item itemvalue="Application.SpringApp" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.24" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HibernateApp" />
+        <item itemvalue="Application.HomeController" />
         <item itemvalue="Application.SpringApp" />
       </list>
     </recent_temporary>
@@ -281,7 +362,9 @@
       <workItem from="1572310103948" duration="3470000" />
       <workItem from="1574047224736" duration="4532000" />
       <workItem from="1574117682371" duration="6715000" />
-      <workItem from="1574127870161" duration="4017000" />
+      <workItem from="1574127870161" duration="4365000" />
+      <workItem from="1575393003014" duration="5670000" />
+      <workItem from="1575427248381" duration="32796000" />
     </task>
     <task id="LOCAL-00001" summary="list/search servlets">
       <created>1568862425052</created>
@@ -332,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574139115753</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="comments">
+      <created>1574139664498</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574139664498</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +447,8 @@
     <MESSAGE value="mvc pt 1" />
     <MESSAGE value="xml config" />
     <MESSAGE value="hibernate lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="hibernate lab" />
+    <MESSAGE value="comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="comments" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

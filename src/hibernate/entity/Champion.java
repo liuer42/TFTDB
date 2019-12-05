@@ -1,6 +1,7 @@
 package hibernate.entity;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name="Champions")
@@ -11,18 +12,15 @@ public class Champion {
     @Column(name="champid")
     private int champId;
 
+    @Column(name="name")
+    @NotNull(message = "required")
+    private String champName;
+
     // a class type can have many champions but a champion can only be one class type
     //eager fetch type loads up the relationship before being called by a getter
-    @ManyToOne(cascade={CascadeType.DETACH,
-            CascadeType.MERGE,
-            CascadeType.PERSIST,
-            CascadeType.REFRESH},
-            fetch=FetchType.EAGER)
+    @ManyToOne(cascade=CascadeType.ALL)
     @JoinColumn(name="class")
-    private Class className;
-
-    @Column(name="name")
-    private String name;
+    private hibernate.entity.Class className;
 
     @Column(name="origin")
     private String origin;
@@ -53,7 +51,7 @@ public class Champion {
     }
 
     public Champion(String name, String origin, int cost, String health, int armor, int magicResist, int range, String abilityName, String abilityDesc) {
-        this.name = name;
+        this.champName = name;
         this.origin = origin;
         this.cost = cost;
         this.health = health;
@@ -69,7 +67,7 @@ public class Champion {
         return "Champion{" +
                 "champId=" + champId +
                 ", className=" + className +
-                ", name='" + name + '\'' +
+                ", name='" + champName + '\'' +
                 ", origin='" + origin + '\'' +
                 ", cost=" + cost +
                 ", health='" + health + '\'' +
@@ -100,12 +98,12 @@ public class Champion {
         this.className = className;
     }
 
-    public String getName() {
-        return name;
+    public String getChampName() {
+        return champName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setChampName(String champName) {
+        this.champName = champName;
     }
 
     public String getOrigin() {
